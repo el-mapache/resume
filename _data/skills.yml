@@ -1,0 +1,19 @@
+javascript:
+  type: javascript
+  level: 85
+
+html:
+  type: html
+  level: 80
+
+css:
+  type: css/scss
+  level: 75
+
+rails:
+  type: ruby (on rails)
+  level: 70
+
+php:
+  type: php
+  level: 60

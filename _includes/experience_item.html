@@ -1,0 +1,34 @@
+<div class="experience-group">
+  <div class="row">
+    <div class="col-xs-3">
+      <p class="experience-name">
+        <b>{{experience.job}}</b>
+      </p>
+      <div class="experience-location">
+        <p style="width:100%" class="mute">
+          {{experience.location}}
+        </p>
+        <p class="mute">
+          {{ experience.dates }}
+        </p>
+      </div>
+      <p>
+        {% assign skills_list = experience.skills | split: "," %}
+        {% for skill in skills_list %}
+          {% assign skill = site.data.skills[skill] %}
+          <span class="skill-pill {{skill}}" style="width: 20%;"></span>
+        {% endfor %}
+      </p>
+    </div>
+    <div class="col-xs-9">
+      <p class="experience-title">
+        <b>{{experience.title}}</b>
+      </p>
+      <ul class="experience-points">
+        {% for hilight in experience.hilites %}
+          <li>&bull; {{ hilight }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

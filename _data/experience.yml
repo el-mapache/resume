@@ -1,0 +1,45 @@
+- job: 18F
+  location: the internet
+  dates: may 2016 - present
+  title: Front End Software Developer
+  skills: javascript, html, css
+  hilites: [
+    'As a member of the front end guild, I helped lead an effort to reduce dependecies by porting our existing css linting from ruby to js using <b>stylelint</b>, helped maintain our styleguide, and helped overall maintainability by writing unit tests for the guide''s JS plugins',
+    'Led rewrite of the front end of Federalist, a static site generator, from a legacy backbone app to <b>react</b>',
+    'Worked closely with clients to rapidly (~ each week) develop prototypes based on user research'
+  ]
+
+- job: GoPro
+  location: san francisco
+  dates: october 2013 - april 2016
+  title: Front End Software Developer
+  skills: javascript, ruby on rails, html, css
+  hilites: [
+    'Led development of the front end of our login page, creating an <b>isomorphic react</b> application running on <b>node and hapi.js</b>',
+    'Helped lead team in architecture and <b>angular</b> best practices for media manager and user account features',
+    'As owner of cart and checkout (a complex <b>backbone</b> app), I designed the app structure and wrote much of the front end code, reviewed pull requests and helped maintain code quality and consistency',
+    'Helped rewrite the Channel app (<b>angular</b> app consuming youtube and GoPro videos) to be more performant',
+    'Front and back-end development for many site components including product pages, firmware update/management, and user accounts'
+  ]
+
+- job: General Things
+  location: san francisco
+  dates: august 2012 - october 2013
+  title: Full Stack Software Developer
+  skills: javascript, ruby on rails, html, css
+  hilites: [
+    'Built several complex <b>backbone</b> apps, including a media manager for the admin CMS and a user profile for uploading, managing, and sharing media',
+    'Created the Activity Finder, a build-a-camera-bundle app that helped drive 4th quarter sales in 2012',
+    'Worked closely with design team to implement GoPro''s first responsive website'
+  ]
+
+- job: Bungolow
+  location: buenos aires
+  dates: april 2012 - july 2012
+  title: Full Stack Software Developer
+  skills: php, javascript, html, css
+  hilites: [
+    'Maintained large <b>PHP and JavaScript</b> codebase for a Latin American travel startup',
+    'New features included photo gallery, shopping cart, email reminder system, and social media oauth integration',
+    'Managed deploys and monitored app server using <b>AWS</b>'
+  ]

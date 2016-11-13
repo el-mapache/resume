@@ -1,0 +1,174 @@
+
+* {
+  margin: 0;
+  padding: 0;
+   -webkit-print-color-adjust:exact;
+}
+
+html, body {
+  background: #efefef;
+  color: #444;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10px; /* .1rem is 1px */
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Raleway;
+  font-weight: 600;
+}
+
+#skills, #experience {
+  margin-top: 20px;
+}
+
+.circle {
+  border-radius: 50% 50%;
+  height: 25px;
+  width: 25px;
+}
+
+.circle.filled {
+  background: #999;
+}
+
+.circle.outline {
+  border: 2px solid gray;
+}
+
+.section {
+  display: inline-block;
+  margin-left: 40px;
+  padding: 10px 30px 10px 30px;
+  width: auto;
+}
+
+.skills {
+  background: #2C9191;
+}
+
+.section.bordered {
+  border: 4px solid #777;
+}
+
+.section .icon {
+  align-self: center;
+  margin-right: 8px;
+}
+
+.section-header {
+  color: #333;
+  display: flex;
+  align-content: baseline;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.skill-list, .experience-list {
+  padding: 20px 0 0 0;
+}
+.skill-item {
+  margin-bottom: 16px;
+}
+
+.skill-item .skill-name {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100px;
+}
+
+.skill-item .skill-level {
+  align-self: center;
+}
+
+.progress-bar {
+  height: 8px;
+  width: 200px;
+}
+
+.progress-bar .inner {
+  height: 100%;
+  width: 190px;
+}
+
+.progress-bar .outer {
+  background: #bbb;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  border-bottom: 2px solid #555;
+  width: auto;
+}
+
+.ab-badge {
+  height: auto;
+  width: auto;
+}
+
+.name-badge {
+  background: #53b1b1;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-badge {
+  text-align: right;
+}
+
+.contact-badge:before {
+  content: '';
+  display: block;
+  margin-top: 22%;
+}
+
+.name {
+  color: white;
+}
+
+.mute {
+  color: #424242;
+  font-family: Raleway;
+  font-weight: 300;
+}
+
+.experience-group {
+  margin-bottom: 35px;
+  font-family: Raleway;
+}
+
+.experience-location {
+  font-size: 1.4em;
+}
+
+.experience-name, .experience-title {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+.experience-points {
+  font-size: 1.5em;
+}
+
+.experience-points li {
+  margin-bottom: 10px;
+}
+
+.skill-pill {
+  display: inline-block;
+  height: 5px;
+}
