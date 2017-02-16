@@ -26,11 +26,11 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$seafoam: #53B1B1;
-$marigold: #FFD278;
+$seafoam: #78a583;//#53B1B1;
+$marigold: #d87e33;//#FFD278;
 $mellow-yellow: #F5BF54;
 $red-lipstick: #F55454;
-$grimace: #8EA4D8;
+$grimace: #444c7c;//#8EA4D8;
 $orange: #DC7C2C;
 
 /* skill colors */
@@ -52,4 +52,27 @@ $orange: #DC7C2C;
 
 .rails {
   background: #80D0D0;
+}
+
+.hide {
+  display: none;
+}
+
+/* sticky skills */
+#skills {
+  &.clone {
+    position: fixed;
+    top: 0;
+    left: 47px;
+    margin-top: 0 !important;
+    right: 0;
+    transform: translateY(-100%);
+    transition: transform 0.2 cubic-bezier(.3,.73,.3,.74), display 0.2 linear 0.21;
+  }
+}
+
+body.down {
+  #skills.clone {
+    transform: translateY(0);
+  }
 }

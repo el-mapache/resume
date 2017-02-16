@@ -4,8 +4,10 @@
   title: Front End Software Developer
   skills: javascript, html, css
   hilites: [
+    'As a member of the login.gov team, I work to contribute and refactor
+    maintainable css, javascript, and ruby/rails code',
+    'Led rewrite of the front end of Federalist, our static site generator, from a legacy backbone app to a fully tested <b>react</b> application',
     'As a member of the front end guild, I helped lead an effort to reduce dependecies by porting our existing css linting from ruby to js using <b>stylelint</b>, helped maintain our styleguide, and helped overall maintainability by writing unit tests for the guide''s JS plugins',
-    'Led rewrite of the front end of Federalist, a static site generator, from a legacy backbone app to <b>react</b>',
     'Worked closely with clients to rapidly (~ each week) develop prototypes based on user research'
   ]
 
