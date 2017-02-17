@@ -1,18 +1,18 @@
 - job: 18F
-  location: the internet
+  location: remote
   dates: may 2016 - present
   title: Front End Software Developer
   skills: javascript, html, css
   hilites: [
-    'As a member of the login.gov team, I work to contribute and refactor
-    maintainable css, javascript, and ruby/rails code',
+    'As a member of the login.gov team, I contribute tested and maintainable css,
+    javascript, and ruby/rails code to our saml identity provider',
     'Led rewrite of the front end of Federalist, our static site generator, from a legacy backbone app to a fully tested <b>react</b> application',
     'As a member of the front end guild, I helped lead an effort to reduce dependecies by porting our existing css linting from ruby to js using <b>stylelint</b>, helped maintain our styleguide, and helped overall maintainability by writing unit tests for the guide''s JS plugins',
     'Worked closely with clients to rapidly (~ each week) develop prototypes based on user research'
   ]
 
 - job: GoPro
-  location: san francisco
+  location: san francisco and remote
   dates: october 2013 - april 2016
   title: Front End Software Developer
   skills: javascript, ruby on rails, html, css
