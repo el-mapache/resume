@@ -1,23 +1,23 @@
 - job: 18F
   location: remote
   dates: may 2016 - present
-  title: Front End Software Developer
-  skills: javascript, html, css
+  title: Front-end Software Developer
+  skills: javascript, ruby on rails, html, css
   hilites: [
-    'As a member of the login.gov team, I contribute tested and maintainable css,
-    javascript, and ruby/rails code to our saml identity provider',
-    'Led rewrite of the front end of Federalist, our static site generator, from a legacy backbone app to a fully tested <b>react</b> application',
-    'As a member of the front end guild, I helped lead an effort to reduce dependecies by porting our existing css linting from ruby to js using <b>stylelint</b>, helped maintain our styleguide, and helped overall maintainability by writing unit tests for the guide''s JS plugins',
+    'Helped lead a Front End Guild effort to reduce dependecies by porting our existing css linting from ruby to js using <b>stylelint</b>, helped maintain our styleguide, and helped overall maintainability by writing unit tests for the guide''s JS plugins',
+    'Led rewrite of the front-end of Federalist, a Github-backed static site generator, from a legacy backbone app to <b>react</b>',
+    'Extensively refactored and tested the cloud.gov dashboard app, helping to bring the app in line with current <b>react</b> best practices',
+    'Refactored and simplified front-end code for login.gov, creating several modules that facilitated code sharing and faster development. Fully tested all JS and Ruby code written',
     'Worked closely with clients to rapidly (~ each week) develop prototypes based on user research'
   ]
 
 - job: GoPro
   location: san francisco and remote
   dates: october 2013 - april 2016
-  title: Front End Software Developer
+  title: Front-end Software Developer
   skills: javascript, ruby on rails, html, css
   hilites: [
-    'Led development of the front end of our login page, creating an <b>isomorphic react</b> application running on <b>node and hapi.js</b>',
+    'Led development of the front-end of our login app, creating an <b>isomorphic react</b> application running on <b>node and hapi.js</b>',
     'Helped lead team in architecture and <b>angular</b> best practices for media manager and user account features',
     'As owner of cart and checkout (a complex <b>backbone</b> app), I designed the app structure and wrote much of the front end code, reviewed pull requests and helped maintain code quality and consistency',
     'Helped rewrite the Channel app (<b>angular</b> app consuming youtube and GoPro videos) to be more performant',
