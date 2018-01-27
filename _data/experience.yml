@@ -4,11 +4,11 @@
   title: Front-end Software Developer
   skills: javascript, ruby on rails, html, css
   hilites: [
-    'Helped lead a Front End Guild effort to reduce dependecies by porting our existing css linting from ruby to js using <b>stylelint</b>, helped maintain our styleguide, and helped overall maintainability by writing unit tests for the guide''s JS plugins',
-    'Led rewrite of the front-end of Federalist, a Github-backed static site generator, from a legacy backbone app to <b>react</b>',
-    'Extensively refactored and tested the cloud.gov dashboard app, helping to bring the app in line with current <b>react</b> best practices',
-    'Refactored and simplified front-end code for login.gov, creating several modules that facilitated code sharing and faster development. Fully tested all JS and Ruby code written',
-    'Worked closely with clients to rapidly (~ each week) develop prototypes based on user research'
+    'As a member of the front-end guild, led an effort to reduce dependecies by porting our existing css linting from ruby to js using <b>stylelint</b>, helped maintain <b>USWDS</b>, our web design standards, wrote a guide on Content Security Policy,  and helped overall maintainability by writing unit tests for the guide''s JS plugins',
+    'Led rewrite of the front-end of Federalist, a Github-backed static site manager and deployment tool, from a legacy backbone app to <b>react</b>',
+    'Extensively refactored and tested our cloud.gov dashboard app, helping to bring the app in line with current <b>react</b> best practices and making it more robust and maintainable',
+    'Refactored and simplified front-end code for login.gov (our government-wide SSO service), creating several modules that facilitated code sharing and faster development. Contributed lots of fully tested code to the main <b>Ruby on Rails</b> app',
+    'Worked directly with clients to rapidly develop prototypes based on user research and feedback'
   ]
 
 - job: GoPro
@@ -17,7 +17,8 @@
   title: Front-end Software Developer
   skills: javascript, ruby on rails, html, css
   hilites: [
-    'Led development of the front-end of our login app, creating an <b>isomorphic react</b> application running on <b>node and hapi.js</b>',
+    'Led development of the front-end of our login app, creating an <b>isomorphic react</b> application running on <b>node and hapi.js</b>. All of our front-end apps were built using this base',
+    'Worked exclusively with cross-functional teams, frequently collborating with devops, designers, and our API services teams',
     'Helped lead team in architecture and <b>angular</b> best practices for media manager and user account features',
     'As owner of cart and checkout (a complex <b>backbone</b> app), I designed the app structure and wrote much of the front end code, reviewed pull requests and helped maintain code quality and consistency',
     'Helped rewrite the Channel app (<b>angular</b> app consuming youtube and GoPro videos) to be more performant',
@@ -32,7 +33,8 @@
   hilites: [
     'Built several complex <b>backbone</b> apps, including a media manager for the admin CMS and a user profile for uploading, managing, and sharing media',
     'Created the Activity Finder, a build-a-camera-bundle app that helped drive 4th quarter sales in 2012',
-    'Worked closely with design team to implement GoPro''s first responsive website'
+    'Worked closely with design team to implement GoPro''s first responsive website',
+    'Worked directly with clients to produce polished web sites and apps'
   ]
 
 - job: Bungolow
@@ -42,6 +44,6 @@
   skills: php, javascript, html, css
   hilites: [
     'Maintained large <b>PHP and JavaScript</b> codebase for a Latin American travel startup',
-    'New features included photo gallery, shopping cart, email reminder system, and social media oauth integration',
+    'New features included standalone experience gallery app, payment system integrations, email reminder system, a refactored database abstraction layer, and social media oauth integration',
     'Managed deploys and monitored app server using <b>AWS</b>'
   ]
