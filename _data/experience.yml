@@ -1,49 +1,46 @@
 - job: 18F
   location: remote
   dates: may 2016 - present
-  title: Front-end Software Developer
+  title: front-end software developer
   skills: javascript, ruby on rails, html, css
   hilites: [
-    'As a member of the front-end guild, led an effort to reduce dependecies by porting our existing css linting from ruby to js using <b>stylelint</b>, helped maintain <b>USWDS</b>, our web design standards, wrote a guide on Content Security Policy,  and helped overall maintainability by writing unit tests for the guide''s JS plugins',
-    'Led rewrite of the front-end of Federalist, a Github-backed static site manager and deployment tool, from a legacy backbone app to <b>react</b>',
-    'Extensively refactored and tested our cloud.gov dashboard app, helping to bring the app in line with current <b>react</b> best practices and making it more robust and maintainable',
-    'Refactored and simplified front-end code for login.gov (our government-wide SSO service), creating several modules that facilitated code sharing and faster development. Contributed lots of fully tested code to the main <b>Ruby on Rails</b> app',
-    'Worked directly with clients to rapidly develop prototypes based on user research and feedback'
+    '<b>Led rewrite to React of the front-end of Federalist</b>, a Github-backed static site manager and deployment tool. Rewrite led to code that was testable, maintainable and easily extensible',
+    '<b>Extensively refactored and tested cloud.gov dashboard app</b>, reducing code duplication and bugs, allowing for easy testing and quick iteration',
+    '<b>Refactored and created modular front-end components for login.gov</b>, the government-wide SSO service, allowing developers to decorate html with new functionality without duplicating code',
+    '<b>Authored usage guide on Content Security Policy for our frontned apps</b>, making it easier for devs to increase app security',
+    '<b>Porting our ruby-based scss linting to JS</b> for JS-only projects, reducing code bloat and complexity, and reducing context switching overhead',
   ]
 
 - job: GoPro
-  location: san francisco and remote
+  location: san francisco + remote
   dates: october 2013 - april 2016
-  title: Front-end Software Developer
+  title: front-end software developer
   skills: javascript, ruby on rails, html, css
   hilites: [
-    'Led development of the front-end of our login app, creating an <b>isomorphic react</b> application running on <b>node and hapi.js</b>. All of our front-end apps were built using this base',
-    'Worked exclusively with cross-functional teams, frequently collborating with devops, designers, and our API services teams',
-    'Helped lead team in architecture and <b>angular</b> best practices for media manager and user account features',
-    'As owner of cart and checkout (a complex <b>backbone</b> app), I designed the app structure and wrote much of the front end code, reviewed pull requests and helped maintain code quality and consistency',
-    'Helped rewrite the Channel app (<b>angular</b> app consuming youtube and GoPro videos) to be more performant',
-    'Front and back-end development for many site components including product pages, firmware update/management, and user accounts'
+    '<b>Led back and front-end development of login app in React and Hapi.js</b>. Working with devops, design and our login API team to create GoPro''s first JS-only and first React app',
+    '<b>Rewrote the Channels Angular app</b>, an important marketing tool, to be more performant, lowering initial load times, video load delay and responsiveness',
+    '<b>Led development of Media Manager</b>, a single-page Angular app for managing and sharing media. Integrated with multiple internal APIs, YouTube and Twitter',
   ]
 
 - job: General Things
   location: san francisco
   dates: august 2012 - october 2013
-  title: Full Stack Software Developer
+  title: full-stack software developer
   skills: javascript, ruby on rails, html, css
   hilites: [
-    'Built several complex <b>backbone</b> apps, including a media manager for the admin CMS and a user profile for uploading, managing, and sharing media',
-    'Created the Activity Finder, a build-a-camera-bundle app that helped drive 4th quarter sales in 2012',
-    'Worked closely with design team to implement GoPro''s first responsive website',
-    'Worked directly with clients to produce polished web sites and apps'
+    '<b>Owned and architected revamp of cart and checkout into a single-page Backbone app</b>. Previously a cumbersome HTML form with poor customer experience. I designed the app structure and wrote much of the front end code, reviewed pull requests and helped maintain code quality and consistency',
+    '<b>Owned front-end of Activity Finder</b>, a build-a-bundle app that allowed users to quickly create a camera and accessory package. App helped drive 4th quarter sales in 2012',
+    '<b>Implemented GoPro''s first responsive website</b>. With design team, audited and refactored SCSS site-wide, leading to a consistent cutomer experience across devices and platforms',
   ]
 
 - job: Bungolow
   location: buenos aires
   dates: april 2012 - july 2012
-  title: Full Stack Software Developer
+  title: full-stack software developer
   skills: php, javascript, html, css
   hilites: [
-    'Maintained large <b>PHP and JavaScript</b> codebase for a Latin American travel startup',
-    'New features included standalone experience gallery app, payment system integrations, email reminder system, a refactored database abstraction layer, and social media oauth integration',
-    'Managed deploys and monitored app server using <b>AWS</b>'
+    '<b>Sole developer of a large PHP and JavaScript codebase</b> for a Latin American travel startup',
+    '<b>Supplied visual designs and API design for third-pary SSO logins</b>, increasing ease of account creation and customer confidence in account security',
+    '<b>Pitched and developed email reminder system</b> to remind users of deals they had viewed but not purchased, leading to an increase in sales',
+    '<b>Implmented new payment processing system utilizing Stripe and Tipalti APIs</b>, increasing ease of purchase and customer confidence in our platform',
   ]

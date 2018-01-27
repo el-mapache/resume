@@ -1,0 +1,22 @@
+<div class="row">
+  <section id="skills" class="col-xs-3">
+    <h2>Skills</h2>
+    <div class="skill-list">
+      {% for skill_pair in site.data.skills %}
+        {% assign skill_name = skill_pair[0] %}
+        {% assign skill = skill_pair[1] %}
+
+        {% include fancy/skill_item.html skill=skill skill_name=skill_name %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="experience" class="col-xs-9">
+    <h2>Experience</h2>
+    <div class="experience-list">
+      {% for experience in site.data.experience %}
+        {% include fancy/experience_item.html experience=experience %}
+      {% endfor %}
+    </div>
+  </section>
+</div>
