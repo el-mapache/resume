@@ -1,0 +1,150 @@
+---
+---
+$title-font: Helvetica, sans-serif;
+$copy-font: Raleway;
+
+$page-width: 1024px;
+
+$gutter-size: 30px;
+$base-font-size: 16px;
+
+$off-white: #eee;
+$red: #f24242;
+$black: #555;
+$lt-gray: #999;
+$extra-lt-gray: #bbb;
+
+$sm-offset: 1rem;
+$med-offset: 2rem;
+$lg-offset: 5rem;
+
+* {
+  box-sizing: border-box;
+}
+
+p, section, main, a, div, ul, li, span,
+body, html, header, footer {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: helvetica, sans-serif;
+  font-size: $base-font-size;
+  height: 100%;
+  line-height: 1.5;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: $sm-offset;
+}
+
+h6 {
+  font-size: 1.1rem;
+}
+
+a {
+  color: $black;
+}
+
+a:hover, a:active, a:visited {
+  color: $black;
+}
+
+ul {
+  list-style: none; 
+}
+
+.resume {
+  margin: 0 auto;
+  width: $page-width;
+}
+
+.grid {
+  display: grid;
+  grid-gap: $gutter-size;
+}
+
+.personal-info {
+  @extend .grid;
+
+  grid-template-columns: 65% 35%;
+  margin-top: $med-offset;
+}
+
+.name {
+  color: $black;
+  margin-top: $lg-offset;
+}
+
+.mute {
+  color: $extra-lt-gray;
+}
+
+.loud-mute {
+  color: $lt-gray;
+}
+
+.unpad {
+  margin: 0;
+  padding: 0;
+}
+
+.section-header {
+  color: $red;
+  letter-spacing: 0.08rem;
+}
+
+.contact-info {
+  font-family: $copy-font;
+}
+
+.experience {
+  border-top: 1px solid $off-white;
+  margin-top: $sm-offset;
+}
+
+.experience-title {
+  margin-bottom: $sm-offset;
+}
+
+.experience-item {
+  @extend .grid;
+
+  grid-template-columns: 20% 80%;
+
+  font-family: $copy-font;
+  margin-bottom: $lg-offset;
+}
+
+.hilights-header {
+  @extend .grid;
+
+  grid-template-columns: 50% 50%;
+}
+
+.experience-points {
+  margin-top: $sm-offset;
+}
+
+.experience-point {
+  margin-bottom: 0.5em;
+}
+

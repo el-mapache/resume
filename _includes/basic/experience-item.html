@@ -1,0 +1,19 @@
+<div class="experience-item">
+  <section class="info">
+      <p><strong>{{ experience.job }}</strong></p>
+      <p class="loud-mute">{{ experience.location }}</p>
+  </section>
+  <section class="hilights">
+    <header class="hilights-header">
+      <p>
+        <strong>{{ experience.title }}</strong>
+      </p>
+      <p class="loud-mute">{{ experience.dates }}</p>
+    </header>
+    <ul class="experience-points">
+      {% for hilight in experience.hilites %}
+        <li class="experience-point">&bull; {{ hilight }}</li>
+      {% endfor %}
+    </ul>
+  </section> 
+</div>

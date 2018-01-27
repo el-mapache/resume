@@ -1,20 +1,19 @@
 - job: 18F
   location: remote
   dates: may 2016 - present
-  title: Front-end Software Developer
+  title: front-end software developer
   skills: javascript, ruby on rails, html, css
   hilites: [
-    'As a member of the front-end guild, led an effort to reduce dependecies by porting our existing css linting from ruby to js using <b>stylelint</b>, helped maintain <b>USWDS</b>, our web design standards, wrote a guide on Content Security Policy,  and helped overall maintainability by writing unit tests for the guide''s JS plugins',
-    'Led rewrite of the front-end of Federalist, a Github-backed static site manager and deployment tool, from a legacy backbone app to <b>react</b>',
-    'Extensively refactored and tested our cloud.gov dashboard app, helping to bring the app in line with current <b>react</b> best practices and making it more robust and maintainable',
+    '<b>Led rewrite of the front-end</b> of Federalist, a Github-backed static site manager and deployment tool, from a legacy backbone app to <b>React</b>',
+    '<b>Extensively refactored and tested</b> our cloud.gov dashboard app, helping to bring the app in line with current <b>react</b> best practices and making it more robust and maintainable',
     'Refactored and simplified front-end code for login.gov (our government-wide SSO service), creating several modules that facilitated code sharing and faster development. Contributed lots of fully tested code to the main <b>Ruby on Rails</b> app',
-    'Worked directly with clients to rapidly develop prototypes based on user research and feedback'
+    'With the front-end guild, led an effort to reduce dependecies by <b>porting our css linter</b> to js using <b>stylelint</b>, helped maintain <b>USWDS</b>, our web design standards, <b>wrote a guide on Content Security Policy</b>, and helped overall maintainability by <b>writing unit tests for our shared JS plugins</b>',
   ]
 
 - job: GoPro
-  location: san francisco and remote
+  location: san francisco + remote
   dates: october 2013 - april 2016
-  title: Front-end Software Developer
+  title: front-end software developer
   skills: javascript, ruby on rails, html, css
   hilites: [
     'Led development of the front-end of our login app, creating an <b>isomorphic react</b> application running on <b>node and hapi.js</b>. All of our front-end apps were built using this base',
@@ -28,7 +27,7 @@
 - job: General Things
   location: san francisco
   dates: august 2012 - october 2013
-  title: Full Stack Software Developer
+  title: full-stack software developer
   skills: javascript, ruby on rails, html, css
   hilites: [
     'Built several complex <b>backbone</b> apps, including a media manager for the admin CMS and a user profile for uploading, managing, and sharing media',
@@ -40,10 +39,10 @@
 - job: Bungolow
   location: buenos aires
   dates: april 2012 - july 2012
-  title: Full Stack Software Developer
+  title: full-stack software developer
   skills: php, javascript, html, css
   hilites: [
     'Maintained large <b>PHP and JavaScript</b> codebase for a Latin American travel startup',
-    'New features included standalone experience gallery app, payment system integrations, email reminder system, a refactored database abstraction layer, and social media oauth integration',
+    'Built many new features included standalone experience gallery app, payment system integrations, email reminder system, a refactored database abstraction layer, and social media oauth integration',
     'Managed deploys and monitored app server using <b>AWS</b>'
   ]
