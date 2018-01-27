@@ -29,13 +29,14 @@ body, html, header, footer {
 }
 
 html {
+  font-size: $base-font-size;
   height: 100%;
   width: 100%;
 }
 
 body {
   font-family: helvetica, sans-serif;
-  font-size: $base-font-size;
+  font-size: 90%;
   height: 100%;
   line-height: 1.5;
   width: 100%;
@@ -44,6 +45,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   margin-bottom: 1rem;
+  margin-top: 0;
 }
 
 h1 {
@@ -54,6 +56,11 @@ h1 {
 h2 {
   font-size: 2rem;
   margin-top: $sm-offset;
+}
+
+h5 {
+  font-size: 1.3rem;
+  margin-bottom: 0;
 }
 
 h6 {
@@ -128,10 +135,11 @@ ul {
 .experience-item {
   @extend .grid;
 
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 28% 60%;
+  grid-gap: $gutter-size;
 
   font-family: $copy-font;
-  margin-bottom: $lg-offset;
+  margin-bottom: 3rem;
 }
 
 .hilights-header {
