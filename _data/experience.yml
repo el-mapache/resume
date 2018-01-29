@@ -39,7 +39,7 @@
   title: full-stack software developer
   skills: php, javascript, html, css
   hilites: [
-    '<b>Sole developer of a large PHP and JavaScript codebase</b> for a Latin American travel startup',
+    '<b>Sole developer of a large PHP and JavaScript app</b> for a Latin American travel startup',
     '<b>Supplied visual designs and API design for third-pary SSO logins</b>, increasing ease of account creation and customer confidence in account security',
     '<b>Pitched and developed email reminder system</b> to remind users of deals they had viewed but not purchased, leading to an increase in sales',
     '<b>Implmented new payment processing system utilizing Stripe and Tipalti APIs</b>, increasing ease of purchase and customer confidence in our platform',
