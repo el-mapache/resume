@@ -1,14 +1,14 @@
 - job: 18F
-  location: remote
+  location: san francisco + remote
   dates: may 2016 - present
   title: front-end software developer
   skills: javascript, ruby on rails, html, css
   hilites: [
-    '<b>Led rewrite to React of the front-end of Federalist</b>, a Github-backed static site manager and deployment tool. Rewrite led to code that was testable, maintainable and easily extensible',
-    '<b>Extensively refactored and tested cloud.gov dashboard app</b>, reducing code duplication and bugs, allowing for easy testing and quick iteration',
-    '<b>Refactored and created modular front-end components for login.gov</b>, the government-wide SSO service, allowing developers to decorate html with new functionality without duplicating code',
-    '<b>Authored usage guide on Content Security Policy for our frontned apps</b>, making it easier for devs to increase app security',
-    '<b>Porting our ruby-based scss linting to JS</b> for JS-only projects, reducing code bloat and complexity, and reducing context switching overhead',
+    '<b>Owned front-end of application to apply for disaster SNAP benefits</b>. Architechted and implemented using React and state machines (xstate) to manage a complex wizard form with branching and loops',
+    '<b>Lead developer coordinating a team of 18F staff and contractors to refactor and improve the performance</b> of the React-based E-QIP application, a set of forms that helps make applying for government positions easier. Mentored junior team members',
+    "<b>Created tools to validate WCAG accessibility for colors</b> used in the government's web design framework, using chroma.js to power command-line and in-browser applications",
+    '<b>Lead developer on rewrite to React of Federalist</b>, a Github-backed static site manager and deployment tool. Rewrite led to code that was testable, maintainable and easily extensible',
+    '<b>Extensively refactored and tested cloud.gov dashboard app</b>, reducing code duplication and bugs, allowing for quick iteration and simple feature implementation',
   ]
 
 - job: GoPro
@@ -30,7 +30,7 @@
   hilites: [
     '<b>Owned and architected revamp of cart and checkout into a single-page Backbone app</b>. Previously a cumbersome HTML form with poor customer experience. I designed the app structure and wrote much of the front end code, reviewed pull requests and helped maintain code quality and consistency',
     '<b>Owned front-end of Activity Finder</b>, a build-a-bundle app that allowed users to quickly create a camera and accessory package. App helped drive 4th quarter sales in 2012',
-    '<b>Implemented GoPro''s first responsive website</b>. With design team, audited and refactored SCSS site-wide, leading to a consistent cutomer experience across devices and platforms',
+    '<b>Implemented GoPro''s first responsive website</b>. With design team, audited and refactored SCSS site-wide, leading to a consistent customer experience across devices and platforms',
   ]
 
 - job: Bungolow
