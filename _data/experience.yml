@@ -1,46 +1,73 @@
-- job: 18F
+- job: 18F (U.S. government)
   location: san francisco + remote
   dates: may 2016 - present
   title: front-end software developer
-  skills: javascript, ruby on rails, html, css
-  hilites: [
-    '<b>Owned front-end of application to apply for disaster SNAP benefits</b>. Architechted and implemented using React and state machines (xstate) to manage a complex wizard form with branching and loops',
-    '<b>Lead developer coordinating a team of 18F staff and contractors to refactor and improve the performance</b> of the React-based E-QIP application, a set of forms that helps make applying for government positions easier. Mentored junior team members',
-    "<b>Created tools to validate WCAG accessibility for colors</b> used in the government's web design framework, using chroma.js to power command-line and in-browser applications",
-    '<b>Lead developer on rewrite to React of Federalist</b>, a Github-backed static site manager and deployment tool. Rewrite led to code that was testable, maintainable and easily extensible',
-    '<b>Extensively refactored and tested cloud.gov dashboard app</b>, reducing code duplication and bugs, allowing for quick iteration and simple feature implementation',
-  ]
+  skills: javascript, html, css, ruby on rails, python, docker
+  hilites:
+    - summary:
+        title: Disaster SNAP (nutrition assistance) app
+        statement: Exploratory project providing a single suite of tools state's can quickly implement and extend, with the aim of improving the public's access to nutritional assistance following a natural disaster.
+      duties: [
+        "<b>Owned and architected application front-end</b>.",
+        "Complex wizard form with branches and loops built with React and xstate.",
+        "Provided frequent updates and demos to our stakeholders in Florida's SNAP program."
+      ]
+    - summary:
+        title: Federalist
+        statement: "Static site management and publishing tool allowing federal agencies to quickly bootstrap a website; serving 65 million+ page visits annually."
+      duties: [
+        "<b>Proposed and led a rewrite from backbone to React</b>",
+        "Rewrite led to code that is testable, maintainable and easily extensible.",
+        "As the first React app for 18F, it provided a useful framework for future applications."
+      ]
+    - summary:
+        title: US Web Design System (USWDS)
+        statement: Used by dozens of federal agencies, USWDS facilitates look + feel of federal websites with modern design paradigms, providing 508 compliance and a mobile-first experience.
+      duties: [
+        "<b>Created command line and in-browser tools to validate WCAG color accessibility</b> using chroma.js.",
+        "Worked with the lead designer to audit and refactor thousands of lines of SASS for the version 2.0 release."
+      ]
+    - summary:
+        title:  Department of Justice civil rights complaint intake system
+        statement: Consolidating the DOJ's labyrinthian civil rights complaint forms into a single, i18n supported, 508 (accessibility) compliant form
+      duties: [
+        "<b>Provide full-stack engineering and training to junior DOJ programmers</b>, improving their understanding of modern web development practices",
+        "TDD in Python, JavaScript, HTML and CSS for public-facing form and intake app for DOJ staffers.",
+        "Worked closely with designers, accessibility experts, and department stakeholders."
+      ]
+
 
 - job: GoPro
   location: san francisco + remote
   dates: october 2013 - april 2016
   title: front-end software developer
-  skills: javascript, ruby on rails, html, css
-  hilites: [
-    '<b>Led back and front-end development of login app in React and Hapi.js</b>. Working with devops, design and our login API team to create GoPro''s first JS-only and first React app',
-    '<b>Rewrote the Channels Angular app</b>, an important marketing tool, to be more performant, lowering initial load times, video load delay and responsiveness',
-    '<b>Led development of Media Manager</b>, a single-page Angular app for managing and sharing media. Integrated with multiple internal APIs, YouTube and Twitter',
-  ]
+  skills: javascript, ruby on rails, html, css, docker
+  hilites:
+    - summary:
+        title: SSO login front-end client
+        statement: "Front-end SPA and thin node.js server proxying requests to GoPro's OAuth microservice."
+      duties: "<b>Led back and front-end development + architecture using React and Hapi.js</b>. Worked with devops, design and login API team to launch GoPro's first JS-only and first React app."
+    - summary:
+        title: Channels video application
+        statement: "Important marketing tool driving visitor engagement on the GoPro site, resulting in increased sales and product awareness."
+      duties: '<b>Rewrote Channels Angular app</b> to be more performant: lowering page load times, video load delay and improve responsiveness, resulting in increased engagement and sharing of video content via social networks. Contributed to video.js to increase angular.js support.'
+    - summary:
+        title: Media manager web client
+        statement: "Feature-rich SPA with pagination, animations, video playback capabilities, video annotation and websocket integration synced to camera imports."
+      duties: <b>Architected and led development of initial Angular application and React rewrite</b>. Managed a small team of developers including juniors on each team, providing mentoring, pairing, and code reviews.
 
 - job: General Things
   location: san francisco
   dates: august 2012 - october 2013
   title: full-stack software developer
   skills: javascript, ruby on rails, html, css
-  hilites: [
-    '<b>Owned and architected revamp of cart and checkout into a single-page Backbone app</b>. Previously a cumbersome HTML form with poor customer experience. I designed the app structure and wrote much of the front end code, reviewed pull requests and helped maintain code quality and consistency',
-    '<b>Owned front-end of Activity Finder</b>, a build-a-bundle app that allowed users to quickly create a camera and accessory package. App helped drive 4th quarter sales in 2012',
-    '<b>Implemented GoPro''s first responsive website</b>. With design team, audited and refactored SCSS site-wide, leading to a consistent customer experience across devices and platforms',
-  ]
+  hilites:
+    - summary:
+        title: Cart and checkout
+        statement: "GoPro's online shopping and payment experience"
+      duties: <b>Architected and led implementation of complete rewrite to a Backbone SPA</b>. Previously a cumbersome HTML form with poor customer experience. Used a then-novel 1-way data flow paradigm in which components sent messages to services that communicated with our server integrations and passed fresh data back to the client components. Wrote much of the front end code, reviewed pull requests and helped maintain code quality and consistency.'
+    - summary:
+        title: Activity Finder
+        statement: A build-a-camera-bundle application that allowed users to mix and match a camera and accessories, with a rich drag-and-drop grid-based interface.
+      duties: <b>Backbone widget</b> that integrated with the cart and checkout experience and leveraged css3 animations and masonry.js to provide a delightful user experience. Built in under a week for Black Friday, it helped drive 4th quarter sales.
 
-- job: Bungolow
-  location: buenos aires
-  dates: april 2012 - july 2012
-  title: full-stack software developer
-  skills: php, javascript, html, css
-  hilites: [
-    '<b>Sole developer of a large PHP and JavaScript app</b> for a Latin American travel startup',
-    '<b>Supplied visual designs and API design for third-pary SSO logins</b>, increasing ease of account creation and customer confidence in account security',
-    '<b>Pitched and developed email reminder system</b> to remind users of deals they had viewed but not purchased, leading to an increase in sales',
-    '<b>Implmented new payment processing system utilizing Stripe and Tipalti APIs</b>, increasing ease of purchase and customer confidence in our platform',
-  ]

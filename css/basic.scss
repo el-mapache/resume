@@ -75,10 +75,6 @@ a:hover, a:active, a:visited {
   color: $black;
 }
 
-ul {
-  list-style: none; 
-}
-
 .resume {
   margin: 0 auto;
   width: $page-width;
@@ -131,7 +127,7 @@ ul {
 
 .experience-title {
   margin-bottom: $sm-offset;
-  margin-top: $med-offset;
+  margin-top: 1.5rem;
 }
 
 .experience-item {
@@ -151,10 +147,32 @@ ul {
 }
 
 .experience-points {
-  margin-top: $sm-offset;
+  list-style: none;
+  margin-top: 0;
 }
 
 .experience-point {
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5rem;
+
+  .title {
+    color: $black;
+    font-family: $title-font;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  .statement {
+    margin-top: 0;
+  }
+
+  .details {
+    color: #666;
+    list-style: initial;
+    margin-left: 2rem;
+    margin-top: .5rem;
+  }
 }
 
+.black {
+  color: $black;
+}

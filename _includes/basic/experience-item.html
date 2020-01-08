@@ -9,8 +9,22 @@
   </section>
   <section class="hilights">
     <ul class="experience-points">
-      {% for hilight in experience.hilites %}
-        <li class="experience-point">&bull; {{ hilight }}</li>
+      {% for hilite in experience.hilites %}
+        <li class="experience-point">
+          <h4 class="title">
+            <b>
+              {{ hilite.summary.title }}
+            </b>
+          </h4>
+          <p class="statement">
+            <em>{{ hilite.summary.statement }}</em>  
+          </p>
+          <ul class="details">
+            {% for duty in hilite.duties %}
+              <li>{{ duty }}</li>
+            {% endfor %}
+          </ul>
+        </li>
       {% endfor %}
     </ul>
   </section> 
