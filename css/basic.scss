@@ -36,7 +36,6 @@ html {
 
 body {
   font-family: helvetica, sans-serif;
-  font-size: 90%;
   height: 100%;
   line-height: 1.5;
   width: 100%;
@@ -89,13 +88,13 @@ a:hover, a:active, a:visited {
   @extend .grid;
 
   grid-template-columns: 65% 35%;
-  margin-top: $med-offset;
-  margin-bottom: $med-offset;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .name {
   color: $black;
-  margin-top: $med-offset;
+  margin-top: $sm-offset;
 }
 
 .mute {
@@ -122,7 +121,7 @@ a:hover, a:active, a:visited {
 
 .experience {
   border-top: 1px solid $off-white;
-  margin-top: $med-offset;
+  margin-top: $sm-offset;
 }
 
 .experience-title {
@@ -137,7 +136,11 @@ a:hover, a:active, a:visited {
   grid-gap: $gutter-size;
 
   font-family: $copy-font;
-  margin-bottom: 3rem;
+  margin-bottom: 1.25rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .hilights-header {
@@ -169,10 +172,16 @@ a:hover, a:active, a:visited {
     color: #666;
     list-style: initial;
     margin-left: 2rem;
-    margin-top: .5rem;
+    margin-top: .25rem;
   }
 }
 
 .black {
   color: $black;
 }
+
+// @media print {
+//   * {
+//     font-size: 11px
+//   }
+// }

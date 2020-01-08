@@ -6,34 +6,34 @@
   hilites:
     - summary:
         title: Disaster SNAP (nutrition assistance) app
-        statement: Exploratory project providing a single suite of tools state's can quickly implement and extend, with the aim of improving the public's access to nutritional assistance following a natural disaster.
+        statement: A single suite of tools states can quickly implement and extend, designed to improve the public's access to nutritional assistance after a natural disaster.
       duties: [
         "<b>Owned and architected application front-end</b>.",
-        "Complex wizard form with branches and loops built with React and xstate.",
-        "Provided frequent updates and demos to our stakeholders in Florida's SNAP program."
+        "Built a complex wizard form with branching and loops using React and xstate",
+        "Provided frequent updates and demos to our stakeholders in Florida's SNAP program"
       ]
     - summary:
         title: Federalist
-        statement: "Static site management and publishing tool allowing federal agencies to quickly bootstrap a website; serving 65 million+ page visits annually."
+        statement: "Website publishing tool allowing federal agencies to launch sites quickly; serves ~65 million annual page views."
       duties: [
-        "<b>Proposed and led a rewrite from backbone to React</b>",
-        "Rewrite led to code that is testable, maintainable and easily extensible.",
-        "As the first React app for 18F, it provided a useful framework for future applications."
+        "<b>Proposed and led a rewrite from Backbone to React</b>",
+        "Introduced React and webpack to the 18F toolkit",
+        "Rewrite led to code that is testable, maintainable and easily extensible",
       ]
     - summary:
         title: US Web Design System (USWDS)
-        statement: Used by dozens of federal agencies, USWDS facilitates look + feel of federal websites with modern design paradigms, providing 508 compliance and a mobile-first experience.
+        statement: Used by dozens of federal agencies, USWDS provides mobile-first modern design paradigms and 508 compliance.
       duties: [
-        "<b>Created command line and in-browser tools to validate WCAG color accessibility</b> using chroma.js.",
-        "Worked with the lead designer to audit and refactor thousands of lines of SASS for the version 2.0 release."
+        "<b>Created scripts and in-browser tools validating WCAG color accessibility</b> with chroma.js",
+        "Worked with lead designer to audit + refactor thousands of lines of SASS for 2.0 release"
       ]
     - summary:
         title:  Department of Justice civil rights complaint intake system
-        statement: Consolidating the DOJ's labyrinthian civil rights complaint forms into a single, i18n supported, 508 (accessibility) compliant form
+        statement: Merge DOJ's complex complaint forms into a clear, i18n supported, 508 compliant form.
       duties: [
-        "<b>Provide full-stack engineering and training to junior DOJ programmers</b>, improving their understanding of modern web development practices",
-        "TDD in Python, JavaScript, HTML and CSS for public-facing form and intake app for DOJ staffers.",
-        "Worked closely with designers, accessibility experts, and department stakeholders."
+        "<b>Provide full-stack engineering, training, and mentoring to junior DOJ programmers</b>",
+        "TDD in Python, JavaScript, HTML + CSS for public form and DOJ-facing intake app",
+        "Worked closely with designers, accessibility experts, and department stakeholders"
       ]
 
 
@@ -46,28 +46,49 @@
     - summary:
         title: SSO login front-end client
         statement: "Front-end SPA and thin node.js server proxying requests to GoPro's OAuth microservice."
-      duties: "<b>Led back and front-end development + architecture using React and Hapi.js</b>. Worked with devops, design and login API team to launch GoPro's first JS-only and first React app."
+      duties: [
+        "<b>Owned and architected back and front-end development, introduced React to our development toolkit</b>",
+        "Built with React and Hapi.js",
+        "Proposed and led effort to fix and refactor API into a true microservice",
+        "Worked with devops, design and API teams to launch GoPro's first React and all-JS app"
+      ]
     - summary:
         title: Channels video application
-        statement: "Important marketing tool driving visitor engagement on the GoPro site, resulting in increased sales and product awareness."
-      duties: '<b>Rewrote Channels Angular app</b> to be more performant: lowering page load times, video load delay and improve responsiveness, resulting in increased engagement and sharing of video content via social networks. Contributed to video.js to increase angular.js support.'
+        statement: "Marketing tool driving engagement on GoPro.com, increasing sales and brand awareness."
+      duties: [
+        "<b>Rewrote Channels Angular app</b> to improve performance",
+        "Lowered page load times, video load delay and improved responsiveness",
+        "Led to increased engagement and sharing of video content via social networks",
+        "Contributed to open-source library video.js to increase support for angular.js"
+      ]
     - summary:
         title: Media manager web client
-        statement: "Feature-rich SPA with pagination, animations, video playback capabilities, video annotation and websocket integration synced to camera imports."
-      duties: <b>Architected and led development of initial Angular application and React rewrite</b>. Managed a small team of developers including juniors on each team, providing mentoring, pairing, and code reviews.
+        statement: "Feature-rich SPA with animations, video playback + annotation, and websocket support."
+      duties: [
+        "<b>Architected and led development of initial Angular app and React rewrite</b>",
+        "Led small dev team, including juniors developers",
+        "Provided mentoring, pairing, and code reviews"
+      ]
 
 - job: General Things
   location: san francisco
   dates: august 2012 - october 2013
-  title: full-stack software developer
+  title: full-stack developer
   skills: javascript, ruby on rails, html, css
   hilites:
     - summary:
         title: Cart and checkout
         statement: "GoPro's online shopping and payment experience"
-      duties: <b>Architected and led implementation of complete rewrite to a Backbone SPA</b>. Previously a cumbersome HTML form with poor customer experience. Used a then-novel 1-way data flow paradigm in which components sent messages to services that communicated with our server integrations and passed fresh data back to the client components. Wrote much of the front end code, reviewed pull requests and helped maintain code quality and consistency.'
+      duties: [
+        "<b>Owned, architected and led implementation of a Backbone SPA</b>",
+        "Proposed and developed a then-novel 1-way data flow paradigm where components sent messages to services that communicated with the server, and passed fresh data back to the client components for rendering",
+        "Wrote much of the code, reviewed pull requests and championed code quality and consistency within the team"
+      ]
     - summary:
         title: Activity Finder
-        statement: A build-a-camera-bundle application that allowed users to mix and match a camera and accessories, with a rich drag-and-drop grid-based interface.
-      duties: <b>Backbone widget</b> that integrated with the cart and checkout experience and leveraged css3 animations and masonry.js to provide a delightful user experience. Built in under a week for Black Friday, it helped drive 4th quarter sales.
+        statement: Build-a-bundle app allowing users to mix and match a camera and accessories.
+      duties: [
+        "<b>Backbone widget</b> integrating with cart + checkout experience, leveraging css3 animations and masonry.js to provide a delightful user experience",
+        "Built in under a week for Black Friday, it helped drive 4th quarter sales"
+      ]
 
