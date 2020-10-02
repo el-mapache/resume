@@ -5,7 +5,7 @@ $copy-font: Raleway;
 
 $page-width: 1024px;
 
-$gutter-size: 30px;
+$gutter-size: 40px;
 $base-font-size: 16px;
 
 $off-white: #eee;
@@ -121,7 +121,7 @@ a:hover, a:active, a:visited {
 
 .experience {
   border-top: 1px solid $off-white;
-  margin-top: $sm-offset;
+  padding-top: 2rem;
 }
 
 .experience-title {
@@ -132,7 +132,7 @@ a:hover, a:active, a:visited {
 .experience-item {
   @extend .grid;
 
-  grid-template-columns: 28% 60%;
+  grid-template-columns: 25% 75%;
   grid-gap: $gutter-size;
 
   font-family: $copy-font;
@@ -169,7 +169,7 @@ a:hover, a:active, a:visited {
   }
 
   .details {
-    color: #666;
+    color: #333;
     list-style: initial;
     margin-left: 2rem;
     margin-top: .25rem;
@@ -180,8 +180,16 @@ a:hover, a:active, a:visited {
   color: $black;
 }
 
-// @media print {
-//   * {
-//     font-size: 11px
-//   }
-// }
+@media print {
+  html, body {
+    font-size: 10pt;
+  }
+
+  .personal-info {
+    margin-top: 0 !important;
+  }
+
+  .name {
+    margin-top: 0;
+  }
+}

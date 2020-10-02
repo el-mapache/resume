@@ -1,94 +1,91 @@
+- job: Compound Financial
+  location: oakland & remote
+  dates: march 2020 - present
+  title: full-stack software developer
+  skills: node/javascript/typescript, html, css, docker
+  hilites:
+    - summary:
+        title: Application engineer
+        statement: As the first engineering hire at Compound (YC19), I and the CTO are responsible for all aspects of the codebase from implementing animations to troubleshooting reverse-engineered unofficial integrations with cap-table management providers
+      duties:
+        [
+          '<b>Primary role building end-to-end features, from authoring the initial API spec to implementing the React component UI</b>',
+          'Created a number of modular components that powered the application, including a file uploader, tabbed modal / wizard interface, & creating generic type interfaces and helper modules to simplify complex data transformations',
+          'Proposed and helped to implement more robust ticket and prouct development lifecycle, leading to reduced development time & streamlines engineer onboarding',
+        ]
 - job: 18F (U.S. government)
-  location: san francisco + remote
-  dates: may 2016 - present
+  location: san francisco & remote
+  dates: may 2016 - february 2020
   title: front-end software developer
   skills: javascript, html, css, ruby on rails, python, docker
   hilites:
     - summary:
         title: Disaster SNAP (nutrition assistance) app
         statement: A single suite of tools states can quickly implement and extend, designed to improve the public's access to nutritional assistance after a natural disaster.
-      duties: [
-        "<b>Owned and architected application front-end</b>.",
-        "Built a complex wizard form with branching and loops using React and xstate",
-        "Provided frequent updates and demos to our stakeholders in Florida's SNAP program"
-      ]
+      duties:
+        [
+          '<b>Owned and architected application front-end</b>.',
+          'Built a complex wizard form with branching and loops using React and xstate',
+          "Provided frequent updates and demos to our stakeholders in Florida's SNAP program",
+        ]
     - summary:
         title: Federalist
-        statement: "Website publishing tool allowing federal agencies to launch sites quickly; serves ~65 million annual page views."
-      duties: [
-        "<b>Proposed and led a rewrite from Backbone to React</b>",
-        "Introduced React and webpack to the 18F toolkit",
-        "Rewrite led to code that is testable, maintainable and easily extensible",
-      ]
+        statement: 'Website publishing tool allowing federal agencies to launch sites quickly; serves ~65 million annual page views.'
+      duties:
+        [
+          '<b>Proposed and led a rewrite from Backbone to React</b>',
+          'Introduced React and webpack to the 18F toolkit',
+          'Rewrite led to code that is testable, maintainable and easily extensible',
+        ]
     - summary:
-        title: US Web Design System (USWDS)
-        statement: Used by dozens of federal agencies, USWDS provides mobile-first modern design paradigms and 508 compliance.
-      duties: [
-        "<b>Created scripts and in-browser tools validating WCAG color accessibility</b> with chroma.js",
-        "Worked with lead designer to audit + refactor thousands of lines of SASS for 2.0 release"
-      ]
-    - summary:
-        title:  Department of Justice civil rights complaint intake system
+        title: Department of Justice civil rights complaint intake system
         statement: Merge DOJ's complex complaint forms into a clear, i18n supported, 508 compliant form.
-      duties: [
-        "<b>Provide full-stack engineering, training, and mentoring to junior DOJ programmers</b>",
-        "TDD in Python, JavaScript, HTML + CSS for public form and DOJ-facing intake app",
-        "Worked closely with designers, accessibility experts, and department stakeholders"
-      ]
-
+      duties:
+        [
+          '<b>Provide full-stack engineering, training, and mentoring to junior DOJ programmers</b>',
+          'TDD in Python, JavaScript, HTML & CSS for public form and DOJ-facing intake app',
+          'Worked closely with designers, accessibility experts, and department stakeholders',
+        ]
 
 - job: GoPro
-  location: san francisco + remote
-  dates: october 2013 - april 2016
+  location: san francisco & remote
+  dates: august 2012 - april 2016
   title: front-end software developer
   skills: javascript, ruby on rails, html, css, docker
   hilites:
     - summary:
         title: SSO login front-end client
-        statement: "Front-end SPA and thin node.js server proxying requests to GoPro's OAuth microservice."
-      duties: [
-        "<b>Owned and architected back and front-end development, introduced React to our development toolkit</b>",
-        "Built with React and Hapi.js",
-        "Proposed and led effort to fix and refactor API into a true microservice",
-        "Worked with devops, design and API teams to launch GoPro's first React and all-JS app"
-      ]
-    - summary:
-        title: Channels video application
-        statement: "Marketing tool driving engagement on GoPro.com, increasing sales and brand awareness."
-      duties: [
-        "<b>Rewrote Channels Angular app</b> to improve performance",
-        "Lowered page load times, video load delay and improved responsiveness",
-        "Led to increased engagement and sharing of video content via social networks",
-        "Contributed to open-source library video.js to increase support for angular.js"
-      ]
-    - summary:
-        title: Media manager web client
-        statement: "Feature-rich SPA with animations, video playback + annotation, and websocket support."
-      duties: [
-        "<b>Architected and led development of initial Angular app and React rewrite</b>",
-        "Led small dev team, including juniors developers",
-        "Provided mentoring, pairing, and code reviews"
-      ]
-
-- job: General Things
-  location: san francisco
-  dates: august 2012 - october 2013
-  title: full-stack developer
-  skills: javascript, ruby on rails, html, css
-  hilites:
+        statement: "Front-end SPA and thin node.js server proxying requests to GoPro's OAuth microservice"
+      duties:
+        [
+          '<b>Owned and architected back and front-end development, introduced React to GoPro</b>',
+          'Built with React and Hapi.js',
+          'Proposed and led effort to fix and refactor Oauth API into a true microservice',
+          "Worked with devops, design and API teams to launch GoPro's first React and all-JS app",
+        ]
     - summary:
         title: Cart and checkout
         statement: "GoPro's online shopping and payment experience"
-      duties: [
-        "<b>Owned, architected and led implementation of a Backbone SPA</b>",
-        "Proposed and developed a then-novel 1-way data flow paradigm where components sent messages to services that communicated with the server, and passed fresh data back to the client components for rendering",
-        "Wrote much of the code, reviewed pull requests and championed code quality and consistency within the team"
-      ]
+      duties:
+        [
+          '<b>Owned, architected and led implementation of a Backbone SPA</b>',
+          'Proposed and developed a then-novel 1-way data flow paradigm where components sent messages to services that communicated with the server, and passed fresh data back to the client components for rendering',
+          'Wrote much of the code, reviewed pull requests and championed code quality and consistency within the team',
+        ]
+    - summary:
+        title: Media manager web client
+        statement: 'Feature-rich SPA with animations, video playback & annotation, and websocket support'
+      duties:
+        [
+          '<b>Architected and led development of initial Angular app and React rewrite</b>',
+          'Led small dev team, including juniors developers',
+          'Provided mentoring, pairing, and code reviews',
+        ]
     - summary:
         title: Activity Finder
-        statement: Build-a-bundle app allowing users to mix and match a camera and accessories.
-      duties: [
-        "<b>Backbone widget</b> integrating with cart + checkout experience, leveraging css3 animations and masonry.js to provide a delightful user experience",
-        "Built in under a week for Black Friday, it helped drive 4th quarter sales"
-      ]
-
+        statement: 'Build-a-bundle app allowing users to mix and match a camera and accessories.'
+      duties:
+        [
+          '<b>Backbone widget</b> integrating with cart & checkout experience, leveraging css3 animations and masonry.js to provide a delightful user experience',
+          'A last minute build for Black Friday, it helped drive 4th quarter sales',
+        ]
