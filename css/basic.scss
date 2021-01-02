@@ -1,5 +1,6 @@
 ---
 ---
+
 $title-font: Helvetica, sans-serif;
 $copy-font: Raleway;
 
@@ -22,8 +23,18 @@ $lg-offset: 5rem;
   box-sizing: border-box;
 }
 
-p, section, main, a, div, ul, li, span,
-body, html, header, footer {
+p,
+section,
+main,
+a,
+div,
+ul,
+li,
+span,
+body,
+html,
+header,
+footer {
   margin: 0;
   padding: 0;
 }
@@ -41,7 +52,12 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 300;
   margin-bottom: 1rem;
   margin-top: 0;
@@ -70,7 +86,9 @@ a {
   color: $black;
 }
 
-a:hover, a:active, a:visited {
+a:hover,
+a:active,
+a:visited {
   color: $black;
 }
 
@@ -117,6 +135,9 @@ a:hover, a:active, a:visited {
 
 .contact-info {
   font-family: $copy-font;
+  justify-self: end;
+  margin-right: 50px;
+  margin-bottom: 1rem;
 }
 
 .experience {
@@ -132,7 +153,7 @@ a:hover, a:active, a:visited {
 .experience-item {
   @extend .grid;
 
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 24% 72%;
   grid-gap: $gutter-size;
 
   font-family: $copy-font;
@@ -163,7 +184,7 @@ a:hover, a:active, a:visited {
     margin-bottom: 0;
     margin-top: 0;
   }
-  
+
   .statement {
     margin-top: 0;
   }
@@ -172,7 +193,7 @@ a:hover, a:active, a:visited {
     color: #333;
     list-style: initial;
     margin-left: 2rem;
-    margin-top: .25rem;
+    margin-top: 0.25rem;
   }
 }
 
@@ -181,7 +202,8 @@ a:hover, a:active, a:visited {
 }
 
 @media print {
-  html, body {
+  html,
+  body {
     font-size: 10pt;
   }
 

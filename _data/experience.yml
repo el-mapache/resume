@@ -6,12 +6,12 @@
   hilites:
     - summary:
         title: Application engineer
-        statement: As the first engineering hire at Compound (YC19), I and the CTO are responsible for all aspects of the codebase from implementing animations to troubleshooting reverse-engineered unofficial integrations with cap-table management providers
+        statement: As the first engineering hire at Compound (YC19), myself and the CTO are responsible for all aspects of the codebase from implementing animations to troubleshooting our reverse-engineered integrations with cap-table management providers
       duties:
         [
-          '<b>Primary role building end-to-end features, from authoring the initial API spec to implementing the React component UI</b>',
+          '<b>Primary role building end-to-end features, from authoring the initial API spec to implementing and testing the React component UI</b>',
           'Created a number of modular components that powered the application, including a file uploader, tabbed modal / wizard interface, & creating generic type interfaces and helper modules to simplify complex data transformations',
-          'Proposed and helped to implement more robust ticket and prouct development lifecycle, leading to reduced development time & streamlines engineer onboarding',
+          'Proposed and helped to implement a more robust ticket tracking and product development lifecycle, staging environment for QA, and culture of testing',
         ]
 - job: 18F (U.S. government)
   location: san francisco & remote
