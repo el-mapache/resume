@@ -1,22 +1,44 @@
+- job: GitHub
+  location: remote
+  dates: july 2021 - present
+  title: senior software engineer
+  hilites:
 - job: Compound Financial
   location: oakland & remote
-  dates: march 2020 - present
-  title: full-stack software developer
+  dates: march 2020 - may 2021
+  title: senior software engineer
   skills: node/javascript/typescript, html, css, docker
   hilites:
     - summary:
-        title: Application engineer
-        statement: As the first engineering hire at Compound (YC19), myself and the CTO are responsible for all aspects of the codebase from implementing animations to troubleshooting our reverse-engineered integrations with cap-table management providers
+        title: PII + File encryption
+        statement: Implemented a scheme for at-rest encryption of customer PII and files.
       duties:
         [
-          '<b>Primary role building end-to-end features, from authoring the initial API spec to implementing and testing the React component UI</b>',
-          'Created a number of modular components that powered the application, including a file uploader, tabbed modal / wizard interface, & creating generic type interfaces and helper modules to simplify complex data transformations',
-          'Proposed and helped to implement a more robust ticket tracking and product development lifecycle, staging environment for QA, and culture of testing',
+          '<b>Used AWS KMS envelope encryption to encrypt PII and references to files</b>',
+        ]
+    - summary:
+      title: Customer portfolio API
+      statement: A REST API and data ingestion pipeline for Compound-managed customer portfolios
+      duties:
+        [
+          "<b>Built an API wrapped for analysts around our asset management provider\'s data</b>",
+          "Built widgets that allowed analysts to view and edit customer portfolios, as well as design portfolio proposals",
+          "Developed data ingestion pipeline to retrieve and process daily portfolio data for our customers",
+        ]
+    - summary:
+        title: Financial product bundler
+        statement: Tool for financial analysts to create custom financial plans, from a suite of modules, for clients. Clients could then fill in relevant information, view associated files, etc.
+      duties:
+        [
+          '<b>Developed feature end-to-end, from data modeling to implementing the analyst and customer-facing UI</b>',
+          'Built a shareable file uploader component for file storage in s3',
+          'Built a generic tabbed modal / wizard interface for multi-step intake forms',
+          'Worked closely with design and the analysts to ensure the product met their needs',
         ]
 - job: 18F (U.S. government)
   location: san francisco & remote
   dates: may 2016 - february 2020
-  title: front-end software developer
+  title: senior
   skills: javascript, html, css, ruby on rails, python, docker
   hilites:
     - summary:
@@ -24,8 +46,8 @@
         statement: A single suite of tools states can quickly implement and extend, designed to improve the public's access to nutritional assistance after a natural disaster.
       duties:
         [
-          '<b>Owned and architected application front-end</b>.',
-          'Built a complex wizard form with branching and loops using React and xstate',
+          '<b>Built a complex, pausable wizard form with branching, loops using statecharts</b>',
+          'WCAG compliant, i18n support, and mobile-friendly',
           "Provided frequent updates and demos to our stakeholders in Florida's SNAP program",
         ]
     - summary:
@@ -33,8 +55,7 @@
         statement: 'Website publishing tool allowing federal agencies to launch sites quickly; serves ~65 million annual page views.'
       duties:
         [
-          '<b>Proposed and led a rewrite from Backbone to React</b>',
-          'Introduced React and webpack to the 18F toolkit',
+          '<b>Proposed and led a rewrite from Backbone to React</b>', introducing React to the 18F toolkit,
           'Rewrite led to code that is testable, maintainable and easily extensible',
         ]
     - summary:
@@ -50,7 +71,7 @@
 - job: GoPro
   location: san francisco & remote
   dates: august 2012 - april 2016
-  title: front-end software developer
+  title: software engineer
   skills: javascript, ruby on rails, html, css, docker
   hilites:
     - summary:
@@ -59,8 +80,7 @@
       duties:
         [
           '<b>Owned and architected back and front-end development, introduced React to GoPro</b>',
-          'Built with React and Hapi.js',
-          'Proposed and led effort to fix and refactor Oauth API into a true microservice',
+          'Proposed and led effort to refactor Rails-based Oauth API into a true microservice',
           "Worked with devops, design and API teams to launch GoPro's first React and all-JS app",
         ]
     - summary:
@@ -68,18 +88,8 @@
         statement: "GoPro's online shopping and payment experience"
       duties:
         [
-          '<b>Owned, architected and led implementation of a Backbone SPA</b>',
+          '<b>Owned, architected and led team implementation of a Backbone SPA</b>',
           'Proposed and developed a then-novel 1-way data flow paradigm where components sent messages to services that communicated with the server, and passed fresh data back to the client components for rendering',
-          'Wrote much of the code, reviewed pull requests and championed code quality and consistency within the team',
-        ]
-    - summary:
-        title: Media manager web client
-        statement: 'Feature-rich SPA with animations, video playback & annotation, and websocket support'
-      duties:
-        [
-          '<b>Architected and led development of initial Angular app and React rewrite</b>',
-          'Led small dev team, including juniors developers',
-          'Provided mentoring, pairing, and code reviews',
         ]
     - summary:
         title: Activity Finder
@@ -87,5 +97,5 @@
       duties:
         [
           '<b>Backbone widget</b> integrating with cart & checkout experience, leveraging css3 animations and masonry.js to provide a delightful user experience',
-          'A last minute build for Black Friday, it helped drive 4th quarter sales',
+          'A last minute build for Black Friday that helped drive 4th quarter sales',
         ]
