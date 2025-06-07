@@ -1,0 +1,27 @@
+{
+    "name": "Jekyll Resume Site",
+    "image": "ruby:3.3",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "lts"
+        },
+        "ghcr.io/devcontainers/features/git:1": {}
+    },
+    "forwardPorts": [4000],
+    "postCreateCommand": "gem install bundler jekyll && bundle install",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rebornix.ruby",
+                "wingrunr21.vscode-ruby",
+                "streetsidesoftware.code-spell-checker",
+                "sissel.shopify-liquid",
+                "davidanson.vscode-markdownlint",
+                "editorconfig.editorconfig"
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            }
+        }
+    }
+}

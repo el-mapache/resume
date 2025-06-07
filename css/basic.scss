@@ -1,11 +1,12 @@
 ---
 ---
+
 $title-font: Helvetica, sans-serif;
 $copy-font: Raleway;
 
 $page-width: 1024px;
 
-$gutter-size: 30px;
+$gutter-size: 40px;
 $base-font-size: 16px;
 
 $off-white: #eee;
@@ -22,8 +23,18 @@ $lg-offset: 5rem;
   box-sizing: border-box;
 }
 
-p, section, main, a, div, ul, li, span,
-body, html, header, footer {
+p,
+section,
+main,
+a,
+div,
+ul,
+li,
+span,
+body,
+html,
+header,
+footer {
   margin: 0;
   padding: 0;
 }
@@ -36,13 +47,17 @@ html {
 
 body {
   font-family: helvetica, sans-serif;
-  font-size: 90%;
   height: 100%;
   line-height: 1.5;
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 300;
   margin-bottom: 1rem;
   margin-top: 0;
@@ -71,12 +86,10 @@ a {
   color: $black;
 }
 
-a:hover, a:active, a:visited {
+a:hover,
+a:active,
+a:visited {
   color: $black;
-}
-
-ul {
-  list-style: none; 
 }
 
 .resume {
@@ -93,12 +106,13 @@ ul {
   @extend .grid;
 
   grid-template-columns: 65% 35%;
-  margin-top: $med-offset;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .name {
   color: $black;
-  margin-top: $lg-offset;
+  margin-top: $sm-offset;
 }
 
 .mute {
@@ -121,25 +135,33 @@ ul {
 
 .contact-info {
   font-family: $copy-font;
+  justify-self: end;
+  margin-right: 50px;
+  margin-bottom: 1rem;
 }
 
 .experience {
   border-top: 1px solid $off-white;
-  margin-top: $sm-offset;
+  padding-top: 2rem;
 }
 
 .experience-title {
   margin-bottom: $sm-offset;
+  margin-top: 1.5rem;
 }
 
 .experience-item {
   @extend .grid;
 
-  grid-template-columns: 28% 60%;
+  grid-template-columns: 24% 72%;
   grid-gap: $gutter-size;
 
   font-family: $copy-font;
-  margin-bottom: 3rem;
+  margin-bottom: 1.25rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .hilights-header {
@@ -149,10 +171,47 @@ ul {
 }
 
 .experience-points {
-  margin-top: $sm-offset;
+  list-style: none;
+  margin-top: 0;
 }
 
 .experience-point {
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5rem;
+
+  .title {
+    color: $black;
+    font-family: $title-font;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .statement {
+    margin-top: 0;
+  }
+
+  .details {
+    color: #333;
+    list-style: initial;
+    margin-left: 2rem;
+    margin-top: 0.25rem;
+  }
 }
 
+.black {
+  color: $black;
+}
+
+@media print {
+  html,
+  body {
+    font-size: 10pt;
+  }
+
+  .personal-info {
+    margin-top: 0 !important;
+  }
+
+  .name {
+    margin-top: 0;
+  }
+}
